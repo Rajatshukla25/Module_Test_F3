@@ -1,0 +1,68 @@
+/* CSS for search input */
+#searchInput {
+    margin-top: 10px;
+    padding: 10px 12px; /* Adjust padding as needed */
+    color: white;
+    background-color: black;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 2px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    margin-right: 5px; /* Spacing between input and buttons */
+    width: 580px;
+  }
+  
+  /* CSS for buttons */
+  button {
+    margin-top: 10px;
+    padding: 10px 16px; /* Adjust padding as needed */
+    color: white;
+    background-color: black;
+    border: 1px solid #ccc; /* Border color */
+    border-radius: 2px;/* Rounded corners */
+    cursor: pointer; /* Cursor on hover */
+    font-size: 16px; /* Font size */
+  }
+  
+  button:hover {
+    background-color: #13e725; /* Darker button color on hover */
+  }
+  
+  /* Global CSS */
+  * {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+  }
+  
+  body {
+    background-color: black;
+    padding: 10px;
+  }
+  
+  .container {
+    width: 75vw;
+    margin: auto;
+  }
+  
+  .positiveValues {
+    color: green;
+  }
+  
+  .negativeValues {
+    color: red;
+  }
+  
+  table {
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 100vh;
+    border-collapse: collapse;
+  }
+  
+  tr {
+    height: 80px;
+    border-bottom: 1px solid white;
+    text-align: right;
+  }
